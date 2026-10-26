@@ -1,0 +1,30 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Leitor de Voz</title>
+</head>
+<body>
+  <h1>Meu projeto de acessibilidade</h1>
+
+  <p id="texto">
+    Olá! Este é um teste de leitura em voz alta.
+  </p>
+
+  <button onclick="lerEmVozAlta(document.getElementById('texto').innerText)">
+    Ler em voz alta
+  </button>
+
+  <button onclick="pausarOuRetomar()">
+    Pausar ou retomar
+  </button>
+
+  <button onclick="pararLeitura()">
+    Parar leitura
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
